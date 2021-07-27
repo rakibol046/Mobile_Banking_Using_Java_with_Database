@@ -1,5 +1,5 @@
 CREATE TABLE customer(
-	id int AUTO_INCREMENT,
+    id int AUTO_INCREMENT,
     name varchar(50),
     phone varchar(15),
     nid varchar(20),
