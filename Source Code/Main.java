@@ -15,7 +15,7 @@ public class Main < control > {
     System.out.println("2 - Registration");
 
     System.out.println("------------------------ ");
-    System.out.println("Your select  : ");
+    System.out.println("Your select : ");
 
     int option = scanner.nextInt();
     switch (option) {
