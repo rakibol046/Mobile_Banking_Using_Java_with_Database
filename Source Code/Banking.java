@@ -853,7 +853,6 @@ public class Banking implements BankingServices {
 
         String updateQuery = "update customer set balance = ? where phone = ? ";
         PreparedStatement preparedStatement = dbconnection.prepareStatement(updateQuery);
-        // prepare all data before insert it
         balance = balance - amount;
         preparedStatement.setInt(1, balance);
         preparedStatement.setString(2, phone);
